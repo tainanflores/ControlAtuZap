@@ -112,7 +112,8 @@ namespace ControlAtuZap
             {
               try
               {
-                if(Directory.Exists(diretorioPadrao))
+                if (Directory.Exists(diretorioPadrao))
+                 //teste git
                 Directory.Delete(diretorioPadrao, true);
 
                 if (!Directory.Exists(diretorio + $@"\{Arquivo}"))
